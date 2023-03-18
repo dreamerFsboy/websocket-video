@@ -1,0 +1,57 @@
+#app {
+    width: 100%;
+    margin: 0;
+}
+
+@media (min-width:576px) {
+
+    #app>footer,
+    #app>header,
+    #app>main,
+    section {
+        --block-spacing-vertical: calc(var(--spacing) * 2.5)
+    }
+}
+
+@media (min-width:768px) {
+
+    #app>footer,
+    #app>header,
+    #app>main,
+    section {
+        --block-spacing-vertical: calc(var(--spacing) * 3)
+    }
+}
+
+@media (min-width:992px) {
+
+    #app>footer,
+    #app>header,
+    #app>main,
+    section {
+        --block-spacing-vertical: calc(var(--spacing) * 3.5)
+    }
+}
+
+@media (min-width:1200px) {
+
+    #app>footer,
+    #app>header,
+    #app>main,
+    section {
+        --block-spacing-vertical: calc(var(--spacing) * 4)
+    }
+}
+
+#app>footer,
+#app>header,
+#app>main {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: var(--block-spacing-vertical) 0
+}
+
+a{
+    cursor: pointer;
+}

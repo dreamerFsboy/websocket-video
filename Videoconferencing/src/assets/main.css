@@ -1,0 +1,38 @@
+@import './pico.min.css';
+@import '@/assets/message.css';
+
+a{
+    cursor: pointer;
+}
+.form-tip{
+    margin-bottom: 0;
+}
+  
+.space-between{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing);
+}
+.max-width-600{
+    max-width: 600px;
+    margin: auto;
+}
+.max-width-600{
+    max-width: 600px;
+    margin: auto;
+}
+@media screen and (max-width:580px) {
+    hgroup{
+      margin: 15px 5px 0 0;
+    }
+    /* summary{
+        position: relative;
+    }
+    summary::after{
+        position: absolute;
+        right: 1px;
+        bottom: 25%;
+    } */
+}
+/* @import './picobody.css'; */
+/* @import './base.css'; */
